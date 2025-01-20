@@ -81,8 +81,12 @@ For a complete data dictionary, refer to the dataset.
 ### **Model Performance**
 | **Metric**         | **Value** |
 |--------------------|-----------|
+| Precision          | 81%       |
+| Recall             | 98%       |
 | Accuracy           | 80%       |
-| F1-Score           | 89%       |
+| F1 Score           | 88%       |
+| ROC-AUC            | 71%       |
+
 
 ### Tradeoff Questions
 
