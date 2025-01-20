@@ -13,23 +13,23 @@ Given a set of attributes for an individual, determine:
 ---
 
 ## **Dataset**
-The analysis uses the `LoanTapData.csv` dataset. Below is a brief description of key features:
+The analysis uses the [LoanTapData.csv](https://drive.google.com/file/d/1ZPYj7CZCfxntE8p2Lze_4QO4MyEOy6_d/view?usp=sharing) dataset. Below is a brief description of key features:
 
 | **Feature**               | **Description**                                                                 |
 |---------------------------|---------------------------------------------------------------------------------|
-| `loan_amnt`              | Loan amount requested by the borrower.                                         |
-| `term`                   | Loan repayment period in months (36 or 60).                                   |
-| `int_rate`               | Interest rate applied to the loan.                                            |
-| `installment`            | Monthly payment amount.                                                       |
-| `grade`, `sub_grade`     | Loan grade assigned by LoanTap.                                               |
-| `emp_length`             | Employment length in years (0-10+).                                           |
-| `home_ownership`         | Borrower’s home ownership status.                                             |
-| `annual_inc`             | Self-reported annual income.                                                  |
-| `verification_status`    | Status of income verification.                                                |
-| `loan_status`            | Target variable indicating loan outcome.                                       |
-| `dti`                    | Debt-to-income ratio.                                                         |
-| `revol_util`             | Revolving line utilization rate.                                              |
-| `mort_acc`, `pub_rec`    | Number of mortgage accounts and public derogatory records.                    |
+| `loan_amnt`              | Loan amount requested by the borrower.                                           |
+| `term`                   | Loan repayment period in months (36 or 60).                                      |
+| `int_rate`               | Interest rate applied to the loan.                                               |
+| `installment`            | Monthly payment amount.                                                          |
+| `grade`, `sub_grade`     | Loan grade assigned by LoanTap.                                                  |
+| `emp_length`             | Employment length in years (0-10+).                                              | 
+| `home_ownership`         | Borrower’s home ownership status.                                                |
+| `annual_inc`             | Self-reported annual income.                                                     |
+| `verification_status`    | Status of income verification.                                                   |
+| `loan_status`            | Target variable indicating loan outcome.                                         |
+| `dti`                    | Debt-to-income ratio.                                                            |
+| `revol_util`             | Revolving line utilization rate.                                                 |
+| `mort_acc`, `pub_rec`    | Number of mortgage accounts and public derogatory records.                       |
 
 For a complete data dictionary, refer to the dataset.
 
